@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <title>Projeto Dio</title>
+    </head>
+    <body>
+        <h1>Introdução ao HTML</h1>
+        <hr />
+        <h2 id="início">Índice</h2>
+
+        <ul>
+            <li><a href="#inspetor">Inspetor de Elementos</a></li>
+            <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+            <li><a href="#tags">Falando sobre Tags</a></li>
+            <li><a href="#atributos">Atributos das Tags</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#listas">Lista Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#referências">Referências</a></li>
+        </ul>
+
+        <h3 id="inspetor">Inspetor de Elementos</h3>
+        <p><i>
+            Em resumo, é uma ferramenta disponível no navegador onde é possível visualizar a estrutura da página em HTML, css e outras informações. É possível fazer alterações momentâneas em que após atualizarmos a página, ela voltará para sua forma original.
+            Podemos assim, ter informações da página e até estudar com sua estrutura, tirar duvidas sobre cores, etc... Segundo o site hostgator:
+        </i></p>
+        <blockquote>
+            A ferramenta de inspecionar elemento é um utilitário que permite visualizar o código-fonte subjacente de qualquer página web. Além disso, você pode usá-la para fazer alterações temporárias e ver os resultados em tempo real, deixando o código-fonte original intacto.
+            Isso é extremamente útil se você precisa testar uma alteração ou diagnosticar um problema. Também pode ser de grande valia se você encontrar um site com um recurso de que goste e estiver curioso para saber como ele foi implementado.
+        </blockquote>
+        <p><a href="#início">Voltar</a></p>
+
+        <h3 id="estrutura">Estrutura básica do HTML</h3>
+        <p><i>Nesta aula aprendemos a estrutura básica do HTML.</i></p>
+        <ul>
+            <li><strong><u>
+                Tag HTML
+            </u></strong></li>
+            <p><i>Aqui temos a Tag responsável por delimitar o documento HTML. Esta tag deverá ser aberta e fechada e tudo que estiver dentro fará parte do arquivo HTML.</i></p>
+
+            <li><strong><u>
+                Tag Head
+            </u></strong></li>
+            <p><i>Aqui temos a tag responsável por pré carregar informações antes de exibir para o usuário. Contém informações do comportamento do site que foi desenvolvido. Esta tag deverá ser aberta e fechada. </i></p>
+
+            <li><strong><u>
+                Tag Body
+            </u></strong></li>
+            <p><i>Aqui temos a tag responsável pelo corpo do site, tudo que está presente dentro desta tag irá aparecer para o usuário. Esta tag deverá ser aberta e fechada.</i></p>
+
+            <li><strong><u>
+                Tag Title
+            </u></strong></li>
+            <p><i>Aqui temos a tag responsável por alterar o título da página, que irá aparecer na aba do navegador. Esta tag ficará localizada dentro do head e deverá ser aberta e fechada.</i></p>
+            
+        </ul>
+        <p><a href="#início">Voltar</a></p>
+        
+        <h3 id="tags">Falandro sobre tags</h3>
+        <p><i>
+            Nesta aula, falamos sobre o que é um atributo de uma tag e conhecemos novas tags, são elas:
+        </i></p>
+
+        <ul>
+            <li><strong><u>
+                Tag i
+            </u></strong></li>
+            <p><i>Aqui temos a tag responsável por colocar o texto que estiver dentro dela em itálico. Esta tag necessita ser aberta e fechada.</i></p>
+
+            <li><strong><u>
+                Tag strong
+            </u></strong></li>
+            <p><i>Aqui temos a tag responsável por colocar o texto que estiver dentro dela em negrito. Esta tag necessita ser aberta e fechada.</i></p>
+
+            <li><strong><u>
+                Tag imput
+            </u></strong></li>
+            <p><i>Aqui temos a tag responsável por criar um campo no site para que o usuário possa preencher, seja ele um campo para preenchimento de número, letras ou senhas. Possuí atributos que distinguem as características deste campo. Esta tag é aberta e fechada na mesma tag.</i></p>
+
+            <li><strong><u>
+                Tag img
+            </u></strong></li>
+            <p><i>Aqui temos a tag responsável por inserir uma imagem em nosso site, através desta tag e um atributo que irá direcionar o local da imagem. A imagem pode estar localizada dentro do servidor ou pode ser um link de uma página da internet. Esta tag se fecha por sí só, não sendo necessário existir uma tag final para fechar.</i></p>
+
+            <li><strong><u>
+                Atributos 
+            </u></strong></li>
+            <p><i>É uma configuração responsável por alterar as características de uma tag.</i></p>
+
+        </ul>
+        <p><a href="#início">Voltar</a></p>
+
+        <h3 id="atributos">Atributos das tags</h3>
+        <p><i>
+            Nesta aula, falamos mais sobre o que é um atributo de uma tag, alguns atributos mais genéricos e outros mais específicos de uma tag.
+        </i></p>
+
+        <ul>
+            <li><strong><u>
+                ID
+            </u></strong></li>
+            <p><i>Aqui temos um atributo generalista, onde é usado para identificar uma tag. Assim, tanto no própio arquivo HTML, como no Javascript, você poderá achar um elemento através do identificador.</i></p>
+
+            <li><strong><u>
+                Script
+            </u></strong></li>
+            <p><i>O atributo Script serve para colocarmos comandos de estilo diretamente no elemento em que ele foi atribuído.</i></p>
+
+            <li><strong><u>
+                Class
+            </u></strong></li>
+            <p><i>Atributo usado também para identificar uma classe, usado com o CSS, onde identificado no CSS, você poderá atribuir um estilo específico para essa classe.</i></p>
+            
+            <li><strong><u>
+                Type
+            </u></strong></li>
+            <p><i>Atributo específico do input, onde o seu valor altera o campo que foi criado na página. <u>Ex: Text, recebe texto. Number, recebe somente número.</u></i></p>
+
+            <li><strong><u>
+                Src
+            </u></strong></li>
+            <p><i>Atributo utilizado na tag img. Este atributo serve para colocarmos como valor o endereço da imagem que será inserida no site. Seja o endereço de uma pasta local ou um link de uma página na internet.</i></p>
+
+            <li><strong><u>
+                Width
+            </u></strong></li>
+            <p><i>Atributo utilizado para determinar a largura. Aqui podemos por exemplo determinar a largura de uma imagem que inserirmos em nosso código.</i></p>                        
+
+        </ul>
+        <p><a href="#início">Voltar</a></p>
+
+        <h3 id="textos">Tags de textos</h3>
+        <p><i>
+            Aqui falamos de algumas tags mais específicas, mais voltadas para textos.
+        </i></p>
+
+        <ul>
+
+            <li><strong><u>
+                Tags H
+            </u></strong></li>
+            <p><i>Aqui teremos seis tags, indo desde o h1 até h6. Estas tags geralmente são usadas para criarmos títulos, subtítulos e assim por diante. Conforme o H vai subindo de número, o tamanho da fonte irá diminuindo.</i></p>
+            
+            <li><strong><u>
+                Tag P
+            </u></strong></li>
+            <p><i>Esta tag é usada para escrevermos um novo parágrafo de um texto.</i></p>
+            
+            <li><strong><u>
+                Blockquote
+            </u></strong></li>
+            <p><i>Tag usada para fazermos uma citação em um texto. Por padrão o texto inserido dentro desta tag é deslocado e destacado. Assim se diferenciado da tag p por exemplo. O espaçamento pode ser alterado através do CSS.</i></p>
+            
+            <li><strong><u>
+                Tag u
+            </u></strong></li>
+            <p><i>Esta tag é usada para <u>sublinhar</u> o texto que estiver dentro dela.</i></p>
+
+            <li><strong><u>
+                Tag mark
+            </u></strong></li>
+            <p><i>Esta tag é usada para <mark>marcar</mark> um texto. Ela marca o texto selecionado pelo autor, assim destacando aquele texto.</i></p>
+            
+            <li><strong><u>
+                Tag sup
+            </u></strong></li>
+            <p><i>Tag usada para criarmos um texto sobrescrito, como asteriscos em palavras, números, ou qualquer outro texto.</i></p>
+        </ul>
+        <p><a href="#início">Voltar</a></p>
+
+        <h3 id="listas">Listas Ordenadas e Não Ordenadas</h3>
+        <p><i>
+            Nesta aula falamos sobre listas. Aprendemos como criarmos listas ordenadas e listas não ordenadas.
+        </i></p>
+
+        <ul>
+            <li><strong><u>
+                Tag ul
+            </u></strong></li>
+            <p><i>Aqui é criado uma lista com itens não ordenados, ou seja, contendo marcadores para listar estes itens. Estes marcadores podem ser alterados via CSS.</i></p>
+
+            <li><strong><u>
+                Tag ol
+            </u></strong></li>
+            <p><i>Nesta tag, os itens serão ordenados através de números, seguindo uma ordem.</i></p>
+            
+            <li><strong><u>
+                Tag il
+            </u></strong></li>
+            <p><i>Esta tag é usada para escrevermos os itens listados dentro de uma lista ordenada ou não ordenada. Ela é obrigatória dentro da OL ou UL.</i></p>
+            
+        </ul>
+        <p><a href="#início">Voltar</a></p>
+
+        <h3 id="links">Links</h3>
+        <p><i>
+            Nesta aula falaremos sobre links, onde aprendemos a criar itens em nosso site que poderão levar o usuário a outras páginas.
+        </i></p>
+
+        <p><i>Para criarmos links, usaremos a tag A, seguida do atributo específico href. Neste atribuito iremos inserir o endereço do link. Seja através de um link de uma página externa, um arquivo html interno ou através de um ID de uma parte interna de nossa página.</i></p>
+        <p><i>Entre a abertura e o fechamento da tag, iremos digitar o texto que o usuário irá ver. Neste texto que o usuário irá clicar para leva-lo até o link que colocamos.</i></p>
+        <p><i>Por padrão, o link irá aparecer através do texto na forma azul e sublinhado. Padrão que poderá ser alterado via CSS.</i></p>
+        <p><i>Temos também o atributo <strong>target</strong> que possue dois valores importantes no uso dos links. Que são os <strong>blank</strong> e o <strong>self</strong> que são usados da seguinte forma.</i></p>
+        <p><strong>Blank:</strong> Usado para abrirmos o link em outra aba do navegador ao clicar.</p>
+        <p><strong>Self:</strong> O usuário ao clicar, será direcionado ao link na mesma aba em que está navegando.</p>
+        <p><i>Outro atributo interessante de ser usado é o <strong><u>title.</u></strong> Com ele é criado um tipo de balão com o texto que inserirmos no valor do atributo, quando o usuário passar o mouse em cima do link.</i></p>
+        <p><a href="#início">Voltar</a></p>
+
+        <h4 id="referências">Referências:</h4>
+        <p><a href="https://www.hostgator.com.br/blog/como-utilizar-o-inspecionar-elemento/" target="_blank">Hostgator</a></p>
+        <p><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></p>
+        <p><a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=1" target="_blank">Curso em vídeo</a></p>
+        <p><a href="#início">Voltar</a></p>
+
+    </body>
+</html>
